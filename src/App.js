@@ -1,10 +1,10 @@
-import { Header } from "./components";
-import styles from "./index.css";
+import { Header, Virtual } from "./components";
 
 const App = () => {
   return (
-    <div className="bg-red-400 ml-47 mt-14 mr-0 mb-0 ">
+    <div className="mx-[191px] my-[56px]">
       <Header />
+      <Virtual />
     </div>
   );
 };
